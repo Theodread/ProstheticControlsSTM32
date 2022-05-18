@@ -3,7 +3,7 @@
 #include "command_handler.h"
 #include "string.h"
 #include "stdio.h"
-#include "SERVO.h"
+#include "../SERVO/SERVO.h"
 #include "stdlib.h"
 
 int (*Commands[NUM_COMMANDS]) ( char** arguments);

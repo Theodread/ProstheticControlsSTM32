@@ -1,5 +1,5 @@
 #include "hand.h"
-#include <SERVO.h>
+#include "../SERVO/SERVO.h"
 
 int FingerPositions[5] = {0,0,0,0,0};
 

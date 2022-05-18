@@ -12,8 +12,9 @@
 
 #include "SERVO.h"
 #include "SERVO_cfg.h"
-#include "DWT_Delay.h"
 #include "config.h"
+
+#include "../util/DWT_Delay.h"
 
 typedef struct
 {

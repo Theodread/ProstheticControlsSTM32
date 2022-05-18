@@ -25,7 +25,7 @@
 /* USER CODE BEGIN Includes */
 #include "FreeRTOS.h"
 #include <stdio.h>
-#include "SERVO.h"
+#include "../SERVO/SERVO.h"
 #include <string.h>
 #include <stdlib.h>
 #include "queue.h"

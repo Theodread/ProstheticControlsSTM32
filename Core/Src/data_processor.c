@@ -2,7 +2,7 @@
 #include <stm32g4xx_hal.h>
 #include <stdio.h>
 #include "hand.h"
-#include "SERVO.h"
+#include "../SERVO/SERVO.h"
 #include "config.h"
 
 int DataProcessor_CheckThreshold(uint16_t* half_buffer, int startIndex, int stopIndex){

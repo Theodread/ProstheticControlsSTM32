@@ -1,5 +1,5 @@
 #include "config.h"
-#include "SERVO.h"
+#include "../SERVO/SERVO.h"
 #include "hand.h"
 
 float minThreshold = 0;
